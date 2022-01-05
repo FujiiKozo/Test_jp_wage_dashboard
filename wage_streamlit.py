@@ -1,4 +1,4 @@
-#import numpy as np
+import numpy as np
 import pandas as pd
 import streamlit as st
 import pydeck as pdk
@@ -115,5 +115,5 @@ fig2 = px.bar(
 st.plotly_chart(fig2)
 
 st.text('出典：RESAS(地域経済分析システム)')
-st.text('ホン結果はRESAS(地域経済分析システム)のデータを加工して作成')
+st.text('本結果はRESAS(地域経済分析システム)のデータを加工して作成')
 
